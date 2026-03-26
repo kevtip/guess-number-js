@@ -1,5 +1,5 @@
 console.log('¡Hola desde JavaScript!');
-let nombre= "Kevin Lindsey";
+let nombre= "Kevin Lindsey Leon tipto";
 let edad = 27;
 let estaAprendiendo = true; 
 console.log(nombre);
@@ -10,11 +10,11 @@ console.log(typeof nombre);
 console.log(typeof edad);
 console.log(typeof estaAprendiendo);
 
-const curso = "Code 101";
-const maxIntentos = 10; 
+const CURSO = "Code 101";
+const MAX_INTENTOS = 10; 
 
-console.log(curso);
-console.log(maxIntentos);
+console.log(CURSO);
+console.log(MAX_INTENTOS);
 
 //maxIntentos=20;
 
@@ -62,6 +62,5 @@ console.log(`Naciste en el año ${anioNacimiento}`);
 
 let ciudad = prompt("De qué ciudad eres?");
 let mensaje = `Hola ${nombreUsuario} tienes ${edadUsuario} años y eres de la ciudad de ${ciudad}`;
-console.log(mensaje);
-
+console.log(mensaje); 
 
