@@ -23,7 +23,7 @@ mostrarMensaje('¡Bienvenido al juego!', '#e94560');
 // --- Variables del juego ---
 let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 let intentos = 0;
-let historialIntentos = [];
+let historialIntentos = []; //dato array
 
 console.log('(DEBUG) Número secreto:', numeroSecreto);
 
